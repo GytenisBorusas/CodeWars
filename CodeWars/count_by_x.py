@@ -12,4 +12,23 @@ count_by(2,5) #should return [2,4,6,8,10]
 """
 
 
+def count_by(x, n):
+    number = 0
+    list = []
+    for i in range(n):
+        number += x
+        list.append(number)
+    print(list)
+    return list
+
+    
+
+
+
+
+
+"""
+Return a sequence of numbers counting by `x` `n` times.
+"""
+    
 
