@@ -9,7 +9,7 @@ with less than two characters.
 # simulating input to test it locally
 def main():
     user_input = input("User input: ")
-    function_return = find_smallest_int(user_input)
+    function_return = remove_char(user_input)
     print(function_return)
 
 

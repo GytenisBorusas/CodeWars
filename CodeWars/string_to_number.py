@@ -19,7 +19,7 @@ Examples
 # simulating input to test it locally
 def main():
     user_input = input("User input: ")
-    function_return = find_smallest_int(user_input)
+    function_return = string_to_number(user_input)
     print(function_return)
 
 
