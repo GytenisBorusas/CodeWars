@@ -18,7 +18,5 @@ def remove_char(s):
 
 
 
-
-
 if __name__ == "__main__":
     main()
