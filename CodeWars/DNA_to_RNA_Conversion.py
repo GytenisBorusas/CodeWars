@@ -20,8 +20,9 @@ of 'G', 'C', 'A' and/or 'T'.
 
 
 def dna_to_rna(dna):
-    return
-
+    rna = dna.capitalize()
+    rna = dna.replace("T", "U")
+    return rna
 
 
 
