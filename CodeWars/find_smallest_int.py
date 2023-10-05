@@ -17,4 +17,15 @@ def main():
 
 
 def find_smallest_int(arr):
-    
+    smallest_number = 9999
+    for number in arr:
+        if number < smallest_number:
+            smallest_number = number
+    return smallest_number
+
+
+
+
+
+if __name__ == "__main__":
+    main()
