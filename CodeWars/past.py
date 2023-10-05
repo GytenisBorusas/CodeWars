@@ -25,7 +25,10 @@ def main():
 
 
 def past(h, m, s):
-    # Good Luck!
+    # h = hours, m = minutes, s = seconds
+    total_miliseconds = ((h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000))
+    return total_miliseconds
+
 
 
 if __name__ == "__main__":
