@@ -12,4 +12,15 @@ Examples
 """
 
 def digital_root(n):
-    # ...
+    str_n = str(n)
+    um_of_n = 0
+    
+    while len(str_n) > 1:
+        sum_of_n = 0
+
+        for digits in str_n:
+            sum_of_n = int(digits) + sum_of_n
+        
+        str_n = str(sum_of_n)
+
+    return n if sum_of_n == 0 else sum_of_n
