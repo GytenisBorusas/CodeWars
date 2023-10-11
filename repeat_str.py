@@ -7,4 +7,4 @@ Examples (input -> output)
 """
 
 def repeat_str(repeat, string):
-    return ''
+    return repeat * string
