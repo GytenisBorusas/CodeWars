@@ -23,4 +23,8 @@ Examples
 
 
 def is_square(n):    
-    return False # fix me
+    sqrt_n = n ** 0.5
+    if sqrt_n == int(sqrt_n):
+        return True
+    else:
+        return False
