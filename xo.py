@@ -12,4 +12,16 @@ XO("zzoo") => false
 """
 
 def xo(s):
-    pass
+    x = 0
+    o = 0
+    s = s.lower()
+    for letter in s:
+        if letter == "x":
+            x += 1
+        elif letter == "o":
+            o += 1
+    
+    if x == o:
+        return True
+    else:
+        return False
