@@ -12,5 +12,5 @@ Note: keep the original order of the names in the output.
 
 """
 
-def friend(x):
-    #Code
+def friend(names):
+    return [name for name in names if len(name) == 4]
