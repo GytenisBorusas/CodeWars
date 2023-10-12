@@ -1,0 +1,20 @@
+
+import sys
+
+def Hello(name):
+    if name == 'Alice' or name == 'Nick':
+        name = name + '???'
+    else:
+        print('else')
+    name = name + '!!!!'
+    print('Hello', name)
+
+# Define a main() function that prints a little greeting.
+def main():
+    if len(sys.argv) >= 1:
+        Hello(sys.argv[1])
+    else:
+        print("Please provide a name as an argument.")
+
+if __name__ == '__main__':
+    main()
