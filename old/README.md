@@ -1,3 +1,0 @@
-
-# Harvard_CS50
-ece39e4f0e736bda69eac8226408a56cb9738d05
