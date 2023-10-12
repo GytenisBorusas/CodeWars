@@ -56,13 +56,13 @@ def rgb(r, g, b):
     hex_g = "{:02X}".format(g)
     hex_b = "{:02X}".format(b)
 
-    print(hex_r)
-    print(hex_g)
-    print(hex_b)
+    # print(hex_r)
+    # print(hex_g)
+    # print(hex_b)
 
     hexadecimal = hex_r + hex_g + hex_b
     hexadecimal = hexadecimal.upper()
-    print(hexadecimal)
+    #  print(hexadecimal)
 
     return hexadecimal
 
