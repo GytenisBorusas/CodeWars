@@ -13,7 +13,9 @@ Input: 123456789 Output: 987654321
 """
 
 def descending_order(num):
-    # Bust a move right here
+    sorted_digs = sorted(str(num), reverse=True)
+    new_num = int(''.join(sorted_digs))
+    return new_num
 
 
 

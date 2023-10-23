@@ -14,8 +14,13 @@ Output string must be two numbers separated by a single space, and highest numbe
 
 
 def high_and_low(numbers):
-    # ...
-    return numbers
+    int_split_numbers = [int(x) for x in numbers.split()]
+    max_number = max(int_split_numbers)
+    min_number = min(int_split_numbers)
+    joined_numbers = f"{max_number} {min_number}"
+    return joined_numbers
+
+
 
 
 
